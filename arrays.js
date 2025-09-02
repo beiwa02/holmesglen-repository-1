@@ -10,3 +10,8 @@ console.log(ascendingArray); // Logs above array to the console
 ascendingArray.push(19, 23, 30); // Add the numbers
 ascendingArray.sort(function(a, b){return a - b}); // Reorder the array
 console.log(ascendingArray); // Logs above array to the console
+
+// Q1.4: Remove 8, 31 from the array; keep order
+ascendingArray.splice(2,1); // Removes 1 item starting at index 2 (removes 8)
+ascendingArray.splice(10,1); // Removes 1 item starting at index 10 (removes 31)
+console.log(ascendingArray); // Logs above array to the console
