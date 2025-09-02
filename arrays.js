@@ -5,3 +5,8 @@ console.log(unorderedArray); // Logs above array to the console
 // Q1.2: Sort array in ascending order
 const ascendingArray = unorderedArray.sort(function(a, b){return a - b}); // New array; takes unorderedArray and sorts the numbers in ascending order
 console.log(ascendingArray); // Logs above array to the console
+
+// Q1.3: Add the 19, 23, 30 to the array; keep sorted or sort again
+ascendingArray.push(19, 23, 30); // Add the numbers
+ascendingArray.sort(function(a, b){return a - b}); // Reorder the array
+console.log(ascendingArray); // Logs above array to the console
