@@ -14,3 +14,7 @@ console.log(myMovie);
 myMovie.rating = 4;
 myMovie.year = 1962;
 console.log(myMovie);
+
+// Q2.4: Delete property
+delete myMovie.summary;
+console.log(myMovie);
